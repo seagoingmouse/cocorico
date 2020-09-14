@@ -30,6 +30,8 @@ use Symfony\Component\Validator\Constraints\IsTrue;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\Valid;
+use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 
 /**
  * Class ListingNewType
@@ -129,6 +131,27 @@ class ListingNewType extends AbstractType implements TranslationContainerInterfa
                 array(
                     'label' => 'listing.form.price',
                 )
+            )
+            ->add(
+                'startDatetime',
+                DateTimeType::class,
+                array(
+                    'label' => 'listing.new.startDatetime',
+                    'minutes' => [0,15,30,45],
+                    'widget' => 'single_text'
+                )
+            )
+            ->add(
+                'minDuration',
+                ChoiceType::class,
+                array(
+                    'label' => 'listing.new.minDuration',
+                    'choices' => array_combine(range(1, 40), range(1, 40)),
+                    'placeholder' => 'listing_edit.form.choose',
+                    'empty_data' => null,
+                    'required' => true,
+                )
+
             )
             ->add(
                 'image',

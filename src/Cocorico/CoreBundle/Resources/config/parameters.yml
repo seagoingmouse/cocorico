@@ -20,29 +20,22 @@ parameters:
     cocorico.locale: en
     cocorico.locales:
             - en
-            - fr
-    cocorico.locales_string: en|fr
+    cocorico.locales_string: en
     #Currencies
-    cocorico.currency: EUR
+    cocorico.currency: NZD
     cocorico.currencies_for_lexik:
         - EUR
         - USD
         - GBP
-        - CHF
-        - CAD
-        - JPY
-        - RUB
+        - NZD
         - AUD
     cocorico.currencies:
         EUR: €
         USD: $
         GBP: £
-        CHF: CHF
-        CAD: $ CAD
-        JPY: ¥
-        RUB: руб
-        AUD: $ AUD
-    cocorico.currencies_string: EUR|USD|GBP|CHF|CAD|JPY|RUB|RUB|AUD
+        NZD: $NZ
+        AUD: $AUD
+    cocorico.currencies_string: EUR|USD|GBP|NZD|AUD
     cocorico.currencies_json: "%kernel.root_dir%/../web/json/currencies.json"
 
     #Does VAT is included in prices fixing
@@ -64,7 +57,7 @@ parameters:
     cocorico.time_unit: 60
 
     #Default users timezone
-    cocorico.time_zone: 'Europe/Paris'
+    cocorico.time_zone: 'Pacific/Auckland'
 
     #Max search and booking days number.
     #Min 1. If set to 1 and days_display_mode = duration then only start date is displayed
@@ -104,10 +97,10 @@ parameters:
     cocorico.listing_new_is_published: 1
 
     #Countries : for France and UK: - FR\n- GB. For all countries set it to []
-    cocorico.listing_countries: []
+    cocorico.listing_countries: [NZ]
 
     cocorico.listing_favorite_countries:
-        - FR
+        - NZ
 
     #Categories
     cocorico.listing_category_min: 1
@@ -116,9 +109,9 @@ parameters:
     cocorico.listing_price_precision: 2
 
     #Min listing price in euro cents
-    cocorico.listing_price_min: 100
+    cocorico.listing_price_min: 2100
     #Max listing price in euro cents
-    cocorico.listing_price_max: 100000
+    cocorico.listing_price_max: 10000
 
     #Add marker on listing show page if true or zone if false
     cocorico.listing_map_display_marker: false

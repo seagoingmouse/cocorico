@@ -35,9 +35,9 @@
             {{ 'listing.price_simulator.cash_in'|trans }}
             <span class="info">
                 {% if includeVat %}
-                    {% set amount_to_pay_to_offerer = listing.amountToPayToOffererDecimal(feeAsOfferer) %}
+                    {% set amount_to_pay_to_offerer = listing.getAmountToChargeAskerDecimal(feeAsOfferer) %}
                 {% else %}
-                    {% set amount_to_pay_to_offerer = listing.amountToPayToOffererForPriceExcludingVATDecimal(feeAsOfferer) %}
+                   {# {% set amount_to_pay_to_offerer = listing.amountToPayToOffererForPriceExcludingVATDecimal(feeAsOfferer) %}#}
                 {% endif %}
                 {% set amount_to_pay_to_offerer = amount_to_pay_to_offerer | format_price(app.request.locale, 2) %}
 

@@ -163,6 +163,13 @@ abstract class BaseListing
     protected $availabilitiesUpdatedAt;
 
     /**
+     * @ORM\Column(name="start_datetime", type="datetime", nullable=false)
+     *
+     * @var \DateTime
+     */
+    protected $startDatetime;
+
+    /**
      * Translation proxy
      *
      * @param $method
@@ -293,6 +300,19 @@ abstract class BaseListing
     }
 
     /**
+     * Get amount to charge asker
+     *
+     * @param float $feeAsOfferer
+     *
+     * @return float
+     */
+     public function getAmountToChargeAskerDecimal($feeAsOfferer)
+     {
+         return $this->getPriceDecimal() + $this->getAmountFeeAsOffererDecimal($feeAsOfferer);
+     }
+
+
+    /**
      * Get amount to pay to offerer
      *
      * @param float $feeAsOfferer
@@ -301,7 +321,8 @@ abstract class BaseListing
      */
     public function getAmountToPayToOffererDecimal($feeAsOfferer)
     {
-        return $this->getPriceDecimal() - $this->getAmountFeeAsOffererDecimal($feeAsOfferer);
+        //return $this->getPriceDecimal() - $this->getAmountFeeAsOffererDecimal($feeAsOfferer);
+        return $this->getPriceDecimal();
     }
 
     /**
@@ -565,5 +586,19 @@ abstract class BaseListing
         $this->availabilitiesUpdatedAt = $availabilitiesUpdatedAt;
     }
 
+    /**
+     * @return \DateTime
+     */
+    public function getStartDatetime()
+    {
+        return $this->startDatetime;
+    }
 
+    /**
+     * @param \DateTime $startDatetime
+     */
+    public function setStartDatetime($startDatetime)
+    {
+        $this->startDatetime = $startDatetime;
+    }
 }

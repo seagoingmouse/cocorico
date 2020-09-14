@@ -40,14 +40,17 @@
                             {{ render(controller('CocoricoListingDepositBundle:Dashboard/Offerer/ListingDeposit:depositForm', {'listing': listing})) }}
                         {% endif %}
 
-                        <!-- simulator -->
-                        {{ render(controller('CocoricoCoreBundle:Dashboard/Offerer/ListingPriceSimulator:priceSimulatorForm', {'listing': listing})) }}
-                    </div>
+                         </div>
 
-                    <!-- discount -->
+                   {# <!-- discount -->
                     <div class="discount-area">
                         <h2>{{ 'listing.edit.discount.title'|trans }}</h2>
                         {{ render(controller('CocoricoCoreBundle:Dashboard/Offerer/ListingDiscount:discountForm', {'listing': listing})) }}
+                    </div>#}
+
+                    <div class="booking-policy">
+                        <h2>{{ 'listing.edit.policy.title'|trans }}</h2>
+                        {{ render(controller('CocoricoCoreBundle:Dashboard/Offerer/Listing:durationForm', {'listing': listing})) }}
                     </div>
 
                     {% if bundleExist('CocoricoListingOptionBundle') %}
@@ -56,13 +59,12 @@
                             {{ render(controller('CocoricoListingOptionBundle:Dashboard/Offerer/ListingOption:optionForm', {'listing': listing})) }}
                         </div>
                     {% endif %}
+                    <!-- simulator -->
+                    {{ render(controller('CocoricoCoreBundle:Dashboard/Offerer/ListingPriceSimulator:priceSimulatorForm', {'listing': listing})) }}
+                   
+                    
 
-                    <div class="booking-policy">
-                        <h2>{{ 'listing.edit.policy.title'|trans }}</h2>
-                        {{ render(controller('CocoricoCoreBundle:Dashboard/Offerer/Listing:durationForm', {'listing': listing})) }}
-                    </div>
-
-                    <div class="form-block">
+                    {#<div class="form-block">
                         {{ form_start(form_prices, {'attr': {'id': 'prices-form', 'class': 'form'}}) }}
 
                         <!-- price-range -->
@@ -125,7 +127,7 @@
                         <div class="date-slider alt">
                             {% include '@CocoricoCore/Dashboard/Listing/_calendar.html.twig' with {'edit_mode': true} only %}
                         </div>
-                    </div>
+                    </div>#}
 
                 </div>
             </div>

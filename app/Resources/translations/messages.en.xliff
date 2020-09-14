@@ -350,6 +350,10 @@
         <source>admin.listing.price.label</source>
         <target>admin.listing.price.label</target>
       </trans-unit>
+      <trans-unit id="4f4e4c62dda7d9caa6cb75d78636b8c1483fcde8" resname="admin.listing.startDatetime.label">
+        <source>admin.listing.startDatetime.label</source>
+        <target>admin.listing.startDatetime.label</target>
+      </trans-unit>
       <trans-unit id="44cae676588ea9c319cfee7bcdcf7e0a812372a6" resname="admin.listing.price_max.label">
         <source>admin.listing.price_max.label</source>
         <target>admin.listing.price_max.label</target>

@@ -277,7 +277,7 @@
       </trans-unit>
       <trans-unit id="d976ad74e1adbd7ccaf23c0cef3b6ce3b088ce98" resname="listing.edit.policy.title">
         <source>listing.edit.policy.title</source>
-        <target>Cancellation policy and durations</target>
+        <target>Duration and cancellation policy</target>
       </trans-unit>
       <trans-unit id="95463bdf30bf84edaa50d763ddc9aeca65a0b7d2" resname="listing.edit.presentation.title">
         <source>listing.edit.presentation.title</source>
@@ -301,11 +301,11 @@
       </trans-unit>
       <trans-unit id="d6bfdec6bacedf752d6b0b8d615fc18ff394bcd7" resname="listing.edit.price.default.title">
         <source>listing.edit.price.default.title</source>
-        <target>Default price</target>
+        <target>Cost breakdown</target>
       </trans-unit>
       <trans-unit id="7a1d5c94a5ef5e71b74393712635e451f5031df5" resname="listing.edit.price.help">
         <source>listing.edit.price.help</source>
-        <target>Price help while mouse hover</target>
+        <target>Rate does not include listing fees</target>
       </trans-unit>
       <trans-unit id="1b5a8ab3a8ba981de8c48e9ba6b250125aa32b90" resname="listing.edit.price.range.title">
         <source>listing.edit.price.range.title</source>
@@ -313,11 +313,11 @@
       </trans-unit>
       <trans-unit id="68ec1a49888802380a72848c5538bef07d9dbfc2" resname="listing.edit.price.simulator.title">
         <source>listing.edit.price.simulator.title</source>
-        <target>Price simulator</target>
+        <target>Job Cost Summary</target>
       </trans-unit>
       <trans-unit id="a98b5fc57bb5882c441968efb0a954c491b95dbb" resname="listing.edit.price.title">
         <source>listing.edit.price.title</source>
-        <target><![CDATA[Prices & Politics]]></target>
+        <target><![CDATA[Time & Money]]></target>
       </trans-unit>
       <trans-unit id="851f8354523b54bf279b612e30aba8bf128e6b35" resname="listing.edit.show">
         <source>listing.edit.show</source>
@@ -329,7 +329,7 @@
       </trans-unit>
       <trans-unit id="ee82168e95bcb352171622ab1b2e7b4b1bc2f398" resname="listing.edit.various_information.title">
         <source>listing.edit.various_information.title</source>
-        <target>Various informations</target>
+        <target>Images</target>
       </trans-unit>
       <trans-unit id="2abe53493f2d54535cf17e971dc59d15a5a2be3b" resname="listing.edit_discount.success">
         <source>listing.edit_discount.success</source>
@@ -377,7 +377,7 @@
       </trans-unit>
       <trans-unit id="fcd16e23d8d246f6620d6a406dc27e2c89fbbbba" resname="listing.form.location.route">
         <source>listing.form.location.route</source>
-        <target>Route</target>
+        <target>Street</target>
       </trans-unit>
       <trans-unit id="e76583a31fd130b75a65cbbfdf4a68855f48bf09" resname="listing.form.location.street_number">
         <source>listing.form.location.street_number</source>
@@ -385,7 +385,7 @@
       </trans-unit>
       <trans-unit id="83fd628a1c4b2dc19a33fdf3310ff970356d3a46" resname="listing.form.location.zip">
         <source>listing.form.location.zip</source>
-        <target>Zip</target>
+        <target>Post Code</target>
       </trans-unit>
       <trans-unit id="0db128b0ec8ab06117fa0f4e27debe03057dcaf6" resname="listing.form.price">
         <source>listing.form.price</source>
@@ -429,7 +429,7 @@
       </trans-unit>
       <trans-unit id="1b9a8b5cdc2cd042da366c84f4822d2fea7135d6" resname="listing.images.to_upload.title">
         <source>listing.images.to_upload.title</source>
-        <target>New images</target>
+        <target></target>
       </trans-unit>
       <trans-unit id="aac609f0882f7a9d1a9380c0a71a287b36f60c02" resname="listing.index.title">
         <source>listing.index.title</source>
@@ -453,7 +453,7 @@
       </trans-unit>
       <trans-unit id="36828233d750b8f4e5317f5aff28d1cbf07f9512" resname="listing.location.private_message">
         <source>listing.location.private_message</source>
-        <target>This address will still private. Only the approximate zone will be shown.</target>
+        <target>The exact address will remain private. Only the approximate zone will be shown.</target>
       </trans-unit>
       <trans-unit id="e7de3fdff3d52c70949ad77812a61129139d01eb" resname="listing.location.title">
         <source>listing.location.title</source>
@@ -465,31 +465,43 @@
       </trans-unit>
       <trans-unit id="8fa76a7978cae2530ff2c22d810fd827e3446e66" resname="listing.new.address.title">
         <source>listing.new.address.title</source>
-        <target>Adress - Fill your address :</target>
+        <target>Please enter the address of the job:</target>
       </trans-unit>
       <trans-unit id="72b732682cffac50b7b04c2703af21318d03a7b5" resname="listing.new.categories.title">
         <source>listing.new.categories.title</source>
-        <target>Which listing types do you want to publish ?</target>
+        <target>Job Categories</target>
       </trans-unit>
       <trans-unit id="10c64b246aa5847e69aa2e4d0b57c39bb7bad697" resname="listing.new.price.rent">
         <source>listing.new.price.rent</source>
-        <target>Rent price</target>
+        <target>Hourly Rate</target>
       </trans-unit>
       <trans-unit id="7cdb4945f2b3c3fc503e0aeb41361ed246766c28" resname="listing.new.price.title">
         <source>listing.new.price.title</source>
-        <target>Please set your price</target>
+        <target>Please set your hourly rate</target>
       </trans-unit>
       <trans-unit id="b6e9646890212403f9b182fd5d81b1e375b003a8" resname="listing.new.price_notice">
         <source>listing.new.price_notice</source>
         <target>You will have the opportunity to set different prices in your dashboard.</target>
       </trans-unit>
+      <trans-unit id="7cdb4945f2b3c3fc503e0aeb41361ed246766c28" resname="listing.new.startDatetime.title">
+        <source>listing.new.startDatetime.title</source>
+        <target>Please set the job start date,time and duration</target>
+      </trans-unit>
+      <trans-unit id="7cdb4945f2b3c3fc503e0aeb41361ed246766c28" resname="listing.new.startDatetime">
+        <source>listing.new.startDatetime</source>
+        <target>Date and Time:</target>
+      </trans-unit>
+      <trans-unit id="7cdb4945f2b3c3fc503e0aeb41361ed246766c28" resname="listing.new.minDuration">
+        <source>listing.new.minDuration</source>
+        <target>Hours:</target>
+      </trans-unit>
       <trans-unit id="d51330e2f2746000508926561dc532bd4bc77a3a" resname="listing.new.publish.notice">
         <source>listing.new.publish.notice</source>
-        <target>You will be able to specify other informations about your company in your profile.</target>
+        <target>You will be able to specify other information about your company in your profile which applicants can view.</target>
       </trans-unit>
       <trans-unit id="f9b32384b68743661c0683cfa182d4db14a5eabc" resname="listing.new.save">
         <source>listing.new.save</source>
-        <target>Publish your listing</target>
+        <target>Publish your job</target>
       </trans-unit>
       <trans-unit id="a81c08ca39057623265fcf541e0aab54c70ec3de" resname="listing.new.signup.title">
         <source>listing.new.signup.title</source>
@@ -505,7 +517,7 @@
       </trans-unit>
       <trans-unit id="099bd9fd3eb8ecdfa47a2bf51cd486c5094cfae0" resname="listing.new.title">
         <source>listing.new.title</source>
-        <target>Deposit your listing</target>
+        <target>Add New Job Details</target>
       </trans-unit>
       <trans-unit id="a385c95efe54f5b3d6707f5106282c2ae14fc04f" resname="listing.price_save">
         <source>listing.price_save</source>
@@ -513,7 +525,7 @@
       </trans-unit>
       <trans-unit id="e1c395f58d46acbfe87d57f646fb95210160751b" resname="listing.price_simulator.cash_in">
         <source>listing.price_simulator.cash_in</source>
-        <target>You will earn</target>
+        <target>You will be charged</target>
       </trans-unit>
       <trans-unit id="4068a1c3c76dc94f369e53e42fc18bb5e3ea51e8" resname="listing.price_simulator.fee">
         <source>listing.price_simulator.fee</source>
@@ -521,7 +533,7 @@
       </trans-unit>
       <trans-unit id="7c020a0b11c62f4725259b4795995bc1e1e090ea" resname="listing.price_simulator.fee.help">
         <source>listing.price_simulator.fee.help</source>
-        <target>Display help while mouse hover</target>
+        <target>Per Hour</target>
       </trans-unit>
       <trans-unit id="19e0ac6564350cc95dac17c3abde0669e0a4e448" resname="listing.price_simulator.help">
         <source>listing.price_simulator.help</source>
@@ -637,7 +649,7 @@
       </trans-unit>
       <trans-unit id="b28dc20af3a8d02e4a0818f6decb8b4aea3ad536" resname="listing.show.min_duration:">
         <source>listing.show.min_duration:</source>
-        <target state="new">Minimum duration:</target>
+        <target state="new">Duration:</target>
       </trans-unit>
       <trans-unit id="3c16a0f6ad566fe2fa301ccf12e36c317c4b297a" resname="listing.show.nb_bookings_asker.help">
         <source>listing.show.nb_bookings_asker.help</source>
@@ -665,7 +677,7 @@
       </trans-unit>
       <trans-unit id="edfb8ef84c3f95470bc8c1d320bbcbd712db8e77" resname="listing.show.rules">
         <source>listing.show.rules</source>
-        <target>Rules</target>
+        <target>Requirements</target>
       </trans-unit>
       <trans-unit id="328589c0f1a692fe96a7b95acbd4c93415937e57" resname="listing.show.user.contact">
         <source>listing.show.user.contact</source>
@@ -741,7 +753,7 @@
       </trans-unit>
       <trans-unit id="9eba7a7b0aab7398d15554585fe718a35bdc5b72" resname="listing_edit.form.min_duration">
         <source>listing_edit.form.min_duration</source>
-        <target>Min duration</target>
+        <target>Duration</target>
       </trans-unit>
       <trans-unit id="93f49fe2a272a47cb9d809e1bf14f7292726a1f7" resname="listing_edit.form.price">
         <source>listing_edit.form.price</source>
@@ -851,7 +863,7 @@
       </trans-unit>
       <trans-unit id="1fb7e962c5b1b85811a4116e8d4a22e5c6ad341e" resname="nav.listing.images.link">
         <source>nav.listing.images.link</source>
-        <target>Photos</target>
+        <target>Images</target>
       </trans-unit>
       <trans-unit id="6b7e582b7d96545e4b34ce2efa309297b4661542" resname="nav.listing.location.link">
         <source>nav.listing.location.link</source>
@@ -859,11 +871,11 @@
       </trans-unit>
       <trans-unit id="63936a5bbe1a225849dcd3622b8de5bdf9de6d31" resname="nav.listing.presentation.link">
         <source>nav.listing.presentation.link</source>
-        <target>Presentation</target>
+        <target>Details</target>
       </trans-unit>
       <trans-unit id="9efbfb5b23e272f9b3338c862f496f28127da949" resname="nav.listing.price.link">
         <source>nav.listing.price.link</source>
-        <target><![CDATA[Price & conditions]]></target>
+        <target><![CDATA[Time & Money]]></target>
       </trans-unit>
       <trans-unit id="c7a4298347ed905bf82c406276876396d2b49a12" resname="nav.tac.slug">
         <source>nav.tac.slug</source>

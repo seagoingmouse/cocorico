@@ -192,6 +192,12 @@ class ListingAdmin extends AbstractAdmin
                     'label' => 'admin.listing.price.label',
                     'include_vat' => $this->includeVat
                 )
+            )->add(
+                'startDatetime',
+                DateTimeType::class,
+                array(
+                    'label' => 'admin.listing.startDatetime.label'
+                )
             );
 
         if (array_key_exists("CocoricoListingDepositBundle", $this->bundles)) {

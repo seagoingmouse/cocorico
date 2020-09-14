@@ -174,6 +174,8 @@ class GeocodingToCoordinateEntityTransformer implements DataTransformerInterface
      */
     private function getGeocodingServer($region, $lat, $lng)
     {
+        //added return false as couldnt work out the issue here, possibly related to ssl. Something for the future
+        return false;
         //Server geocoding. If we can we use it instead of client geocoding
         try {
             $geocodingsServer = $geocodingI18nServer = array();

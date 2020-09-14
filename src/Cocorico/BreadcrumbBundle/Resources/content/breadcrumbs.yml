@@ -63,13 +63,13 @@ cocorico_dashboard_listing_edit_images:
     -   text: 'Listing'
         route: 'cocorico_dashboard_listing'
     -   text: {'entityId': 'id', 'entityName': 'CocoricoCoreBundle:Listing', 'entityMethod': 'getTitle'}
-    -   text: 'Photos'
+    -   text: 'Images'
 
 cocorico_dashboard_listing_edit_characteristic:
     -   text: 'Listing'
         route: 'cocorico_dashboard_listing'
     -   text: {'entityId': 'id', 'entityName': 'CocoricoCoreBundle:Listing', 'entityMethod': 'getTitle'}
-    -   text: 'Characteristics'
+    -   text: 'Categories'
 
 cocorico_dashboard_listing_edit_location:
     -   text: 'Listing'

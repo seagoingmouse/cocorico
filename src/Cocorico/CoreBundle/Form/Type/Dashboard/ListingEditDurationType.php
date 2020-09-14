@@ -37,7 +37,7 @@ class ListingEditDurationType extends AbstractType
                     'required' => false,
                 )
             )
-            ->add(
+            /*->add(
                 'max_duration',
                 ChoiceType::class,
                 array(
@@ -47,7 +47,7 @@ class ListingEditDurationType extends AbstractType
                     'empty_data' => null,
                     'required' => false,
                 )
-            )
+            )*/
             ->add(
                 'cancellation_policy',
                 ChoiceType::class,
